@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.section{
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1320px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.nav-links {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-btn {
+    width: 181.94px;
+    height: 53.42px;
+    padding: 14px 34px 14px 34px;
+    border-radius: 79px;
+    background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.background-image {
+    background-image: url(/assets/images/png/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-color{
+    background: #0000001A;
+}
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.position {
+    position: fixed;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.justify-content-btw {
+    justify-content: space-between;
+}
+
+.justify-content-centre {
+    justify-content: center;
+}
+
+.py {
+    padding: 10px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.top-0 {
+    top: 0%;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.py-30 {
+    padding: 30px;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.px {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.para {
+    font-family: Poppins;
+    font-size: 72px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.span-text {
+    font-family: Poppins;
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.gilded-color {
+    color: #1BABFE;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+/* ================================ blur card ==================================== */
+.blur-card {
+    max-width: 390px;
+    width: 100%;
+    height: 509px;
+    border-radius: 8px;
+    background: linear-gradient(139.51deg, rgba(255, 255, 255, 0.1) -0.66%, rgba(255, 255, 255, 0.03) 100%);
+    border: 1px solid #B0968F;
+    overflow: hidden;
+}
+
+.blur-card-heading {
+    height: 70px;
+    padding: 20px;
+    backdrop-filter: blur(50px);
+}
+
+.presale {
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.border-bottom {
+    width: 395px;
+    height: 0px;
+    border-bottom: 1px solid #8C8C8C;
+}
+
+.token-sold-number {
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1BABFE;
+}
+
+.token-sold {
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.blue-progress-line {
+    width: 239px;
+    height: 2px;
+    background: linear-gradient(180deg, #815CC8 0%, #1BABFE 100%);
+}
+
+.gray-progress-line {
+    width: 200px;
+    height: 2px;
+    background: #C4C4C4;
+}
+
+.blur-box-time-counter {
+    max-width: 397px;
+    width: 100%;
+    height: 70px;
+    font-family: Josefin Sans;
+    font-size: 26px;
+    font-weight: 600;
+    color: #FFFFFF;
+    backdrop-filter: blur(10px);
+}
+
+.gray-color {
+    color: #B4C7CB;
+}
+
+.withdraw-box {
+    width: 100%;
+    height: 70px;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    backdrop-filter: blur(10px);
+}
+
+.gilded-service-blur-box {
+    width: 100%;
+    height: 70px;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    backdrop-filter: blur(70px);
+}
+
+.subscribe-box {
+   
+    width: 100%;
+    height: 70px;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    backdrop-filter: blur(8px);
+}
+
+.cap-blur-box {
+   
+    width: 100%;
+    height: 70px;
+    backdrop-filter: blur(70px);
+}
+
+.cap {
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #C8CACA;
+}
+
+.number {
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.vertical-line {
+    border-left: 0.4px solid #8C8C8C;
+    height: 69px;
+}
+
+.blur-card-btn {
+    height: 85px;
+    backdrop-filter: blur(8px);
+}
+
+.buy-token-svg {
+    padding: 12px 32px 12px 32px;
+    border-radius: 79px;
+    background: linear-gradient(90deg, #815CC8 0%, #1BABFE 100%);
+    color: #FFFFFF;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+/* =========================== hover effects ========================== */
+
+.nav-btn:hover{
+    box-shadow: 0px 8px 30px 0px #1BABFE;
+}
+.buy-token-svg:hover{
+    box-shadow: 0px 8px 30px 0px #1BABFE80;
+}
+
+/* =========================== media query =========================== */
+
+@media (max-width:992px) {
+    label>span {
+        transition: all 200ms linear;
+    }
+
+    input:checked~label span:nth-child(2) {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    input:checked~label span:first-child {
+        transform: rotate(35deg);
+        transform-origin: left;
+    }
+
+    input:checked~label span:last-child {
+        transform: rotate(-35deg);
+        transform-origin: left;
+    }
+
+    .nav-links {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 1;
+        background-color: black;
+        transition: all 300ms ease-in-out;
+    }
+
+    .cross-btn {
+        width: 35px;
+        height: 5px;
+        margin-bottom: 5px;
+        background-color: white;
+        display: flex;
+    }
+
+    label {
+        z-index: 3;
+    }
+
+    .check:checked~.nav-links {
+        right: 0;
+    }
+
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .social-media-icon{
+        justify-content: center;
+    }
+    .para{
+        justify-content: center;
+    }
+    .logo{
+        height: 50px;
+        max-width: 80%;
+    }
+    .font-size{
+        font-size: 60px;
+    }
+    .pz-30{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .blur-card{
+        max-width: 290px;
+        width: 100%;
+        padding-bottom: 70px;
+    }
+}
